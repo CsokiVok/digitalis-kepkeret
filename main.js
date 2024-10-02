@@ -17,6 +17,6 @@ document.getElementById('gomb').addEventListener('click', () => {
 document.getElementById('sotetvilagos').addEventListener('click',()=>{
    
    
-  document.body.classList.toggle("darkode");
+  document.body.classList.toggle("dark-mode");
     
 })
