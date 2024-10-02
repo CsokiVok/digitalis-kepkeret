@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digitális Képkeret</title>
+</head>
+
+<body id="body">
+  <div class="mt-3">
+    <button id="sotetvilagos" class="btn btn-secondary">Sötét/Világos mód</button>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-6 mb-3">
+
+      <div class="row">
+
+        <div class="col-md-6 mb-3">
+          <label for="kepurl">A kép:</label>
+          <input type="url" id="kepurl" class="form-control">
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label for="kepszelesseg">A kép szélessége:</label>
+          <input type="number" id="kepszelesseg" class="form-control">
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label for="kepkeretvastagsaga">A képkeret vastagsága:</label>
+          <input type="number" id="kepkeretvastagsaga" class="form-control">
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label for="keretszin">A képkeret színe</label>
+          <input type="color" id="keretszin" class="form-control">
+        </div>
+
+        <div class="mt-3">
+          <button id="gomb" class="btn btn-primary">Mehet</button>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="col-md-6 mb-3">
+
+      <div class="container">
+        <img id="kep" src="" alt="Kép">
+      </div>
+    </div>
+
+    <footer>
+      <p>Kalina Tamás 14.S</p>
+    </footer>
+
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
